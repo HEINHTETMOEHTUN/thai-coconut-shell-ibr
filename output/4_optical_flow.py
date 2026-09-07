@@ -4,77 +4,337 @@ import glob
 import os
 import shutil
 
-rings = ["horizontal", "upper"]
 
-for ring in rings:
+# -------------------------------------------------
+# SETTINGS
+# -------------------------------------------------
+
+RINGS = [
+    "horizontal",
+    "upper"
+]
+
+PREPARED_ROOT = "prepared"
+
+FLOW_ROOT = "optical_flows"
+
+FLOW_VIS_ROOT = (
+    "flow_visualizations"
+)
+
+
+# -------------------------------------------------
+# FARNEBACK OPTICAL FLOW
+# -------------------------------------------------
+
+def compute_farneback(
+    gray1,
+    gray2
+):
+
+    flow = cv2.calcOpticalFlowFarneback(
+
+        gray1,
+        gray2,
+
+        None,
+
+        # Pyramid scale
+        0.5,
+
+        # Pyramid levels
+        5,
+
+        # Window size
+        25,
+
+        # Iterations
+        5,
+
+        # Polynomial neighborhood
+        7,
+
+        # Polynomial sigma
+        1.5,
+
+        0
+    )
+
+    return flow
+
+
+# -------------------------------------------------
+# FLOW VISUALIZATION
+# -------------------------------------------------
+
+def flow_to_bgr(flow):
+
+    fx = flow[:, :, 0]
+    fy = flow[:, :, 1]
+
+    magnitude, angle = (
+        cv2.cartToPolar(
+            fx,
+            fy
+        )
+    )
+
+    hsv = np.zeros(
+        (
+            flow.shape[0],
+            flow.shape[1],
+            3
+        ),
+        dtype=np.uint8
+    )
+
+    hsv[:, :, 0] = (
+        angle *
+        180 /
+        np.pi /
+        2
+    )
+
+    hsv[:, :, 1] = 255
+
+    hsv[:, :, 2] = (
+        cv2.normalize(
+            magnitude,
+            None,
+            0,
+            255,
+            cv2.NORM_MINMAX
+        ).astype(
+            np.uint8
+        )
+    )
+
+    bgr = cv2.cvtColor(
+        hsv,
+        cv2.COLOR_HSV2BGR
+    )
+
+    return bgr
+
+
+# -------------------------------------------------
+# PROCESS RINGS
+# -------------------------------------------------
+
+for ring in RINGS:
 
     images = sorted(
-        glob.glob(f"prepared/{ring}/*.JPG")
+        glob.glob(
+            os.path.join(
+                PREPARED_ROOT,
+                ring,
+                "*.JPG"
+            )
+        )
     )
 
     if len(images) < 2:
-        print(f"Not enough images in {ring}")
+
+        print(
+            f"Not enough images "
+            f"in {ring}"
+        )
+
         continue
 
-    output_folder = f"optical_flows/{ring}"
+    flow_folder = os.path.join(
+        FLOW_ROOT,
+        ring
+    )
 
-    # Remove old flow files for this ring
-    if os.path.exists(output_folder):
-        shutil.rmtree(output_folder)
+    vis_folder = os.path.join(
+        FLOW_VIS_ROOT,
+        ring
+    )
 
-    os.makedirs(output_folder, exist_ok=True)
+    # Delete old outputs
+    if os.path.exists(
+        flow_folder
+    ):
 
-    print(f"\nProcessing {ring}")
-    print("Images found:", len(images))
+        shutil.rmtree(
+            flow_folder
+        )
 
-    for i in range(len(images) - 1):
+    if os.path.exists(
+        vis_folder
+    ):
 
-        img1 = cv2.imread(images[i])
-        img2 = cv2.imread(images[i + 1])
+        shutil.rmtree(
+            vis_folder
+        )
 
-        if img1 is None or img2 is None:
+    os.makedirs(
+        flow_folder,
+        exist_ok=True
+    )
+
+    os.makedirs(
+        vis_folder,
+        exist_ok=True
+    )
+
+    print(
+        f"\nProcessing "
+        f"bidirectional optical flow: "
+        f"{ring}"
+    )
+
+    print(
+        "Images found:",
+        len(images)
+    )
+
+    # -------------------------------------------------
+    # EACH IMAGE PAIR
+    # -------------------------------------------------
+
+    for i in range(
+        len(images) - 1
+    ):
+
+        img_a = cv2.imread(
+            images[i]
+        )
+
+        img_b = cv2.imread(
+            images[i + 1]
+        )
+
+        if (
+            img_a is None
+            or
+            img_b is None
+        ):
+
             print(
-                f"Could not read {ring} "
-                f"view {i+1} or view {i+2}"
+                f"Could not read "
+                f"pair {i}"
             )
+
             continue
 
-        img2 = cv2.resize(
-            img2,
-            (img1.shape[1], img1.shape[0])
+        img_b = cv2.resize(
+            img_b,
+            (
+                img_a.shape[1],
+                img_a.shape[0]
+            ),
+            interpolation=cv2.INTER_AREA
         )
 
-        gray1 = cv2.cvtColor(
-            img1,
+        gray_a = cv2.cvtColor(
+            img_a,
             cv2.COLOR_BGR2GRAY
         )
 
-        gray2 = cv2.cvtColor(
-            img2,
+        gray_b = cv2.cvtColor(
+            img_b,
             cv2.COLOR_BGR2GRAY
         )
 
-        flow = cv2.calcOpticalFlowFarneback(
-            gray1,
-            gray2,
-            None,
-            0.5,
-            3,
-            15,
-            3,
-            5,
-            1.2,
+        # Gentle Gaussian smoothing
+        # reduces noise and tiny
+        # lighting differences
+
+        gray_a = cv2.GaussianBlur(
+            gray_a,
+            (5, 5),
             0
         )
 
-        filename = (
-            f"{output_folder}/flow_{i:02d}.npy"
+        gray_b = cv2.GaussianBlur(
+            gray_b,
+            (5, 5),
+            0
         )
 
-        np.save(filename, flow)
+        # ---------------------------------------------
+        # FORWARD FLOW
+        # A -> B
+        # ---------------------------------------------
+
+        flow_fwd = compute_farneback(
+            gray_a,
+            gray_b
+        )
+
+        # ---------------------------------------------
+        # BACKWARD FLOW
+        # B -> A
+        # ---------------------------------------------
+
+        flow_bwd = compute_farneback(
+            gray_b,
+            gray_a
+        )
+
+        # ---------------------------------------------
+        # SAVE FLOWS
+        # ---------------------------------------------
+
+        np.save(
+
+            os.path.join(
+                flow_folder,
+                f"flow_fwd_{i:02d}.npy"
+            ),
+
+            flow_fwd
+        )
+
+        np.save(
+
+            os.path.join(
+                flow_folder,
+                f"flow_bwd_{i:02d}.npy"
+            ),
+
+            flow_bwd
+        )
+
+        # ---------------------------------------------
+        # SAVE VISUALIZATIONS
+        # ---------------------------------------------
+
+        cv2.imwrite(
+
+            os.path.join(
+                vis_folder,
+                f"flow_fwd_{i:02d}.jpg"
+            ),
+
+            flow_to_bgr(
+                flow_fwd
+            )
+        )
+
+        cv2.imwrite(
+
+            os.path.join(
+                vis_folder,
+                f"flow_bwd_{i:02d}.jpg"
+            ),
+
+            flow_to_bgr(
+                flow_bwd
+            )
+        )
 
         print(
-            f"{ring}: view {i+1} -> view {i+2}"
+            f"{ring}: "
+            f"view {i+1} "
+            f"<-> "
+            f"view {i+2}"
         )
 
-print("\nAll optical flows finished!")
+
+print(
+    "\nAll bidirectional "
+    "optical flows finished!"
+)
