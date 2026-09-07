@@ -1,0 +1,3033 @@
+{
+  "image_size": 256,
+  "camera_radius": 3.0,
+  "white_background": true,
+  "angle_sign": -1.0,
+  "segmentation_model": "ZhengPeng7/BiRefNet",
+  "frames": [
+    {
+      "ring": "horizontal",
+      "index": 0,
+      "source_name": "horizontal_01.JPG",
+      "theta_deg": -0.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_000.png",
+      "mask": "masks/horizontal_000.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.16732189114071555,
+      "final_crop_foreground_ratio": 0.1595306396484375
+    },
+    {
+      "ring": "horizontal",
+      "index": 1,
+      "source_name": "horizontal_02.JPG",
+      "theta_deg": -10.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_001.png",
+      "mask": "masks/horizontal_001.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9848077893257141,
+          0.0,
+          -0.1736481785774231,
+          -0.5209445357322693
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.1736481934785843,
+          0.0,
+          0.9848077297210693,
+          2.954423189163208
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.16753906906126648,
+      "final_crop_foreground_ratio": 0.1592254638671875
+    },
+    {
+      "ring": "horizontal",
+      "index": 2,
+      "source_name": "horizontal_03.JPG",
+      "theta_deg": -20.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_002.png",
+      "mask": "masks/horizontal_002.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9396926164627075,
+          0.0,
+          -0.3420201241970062,
+          -1.0260604619979858
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.3420201539993286,
+          0.0,
+          0.9396925568580627,
+          2.819077968597412
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1657078195861678,
+      "final_crop_foreground_ratio": 0.1553192138671875
+    },
+    {
+      "ring": "horizontal",
+      "index": 3,
+      "source_name": "horizontal_04.JPG",
+      "theta_deg": -30.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_003.png",
+      "mask": "masks/horizontal_003.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.8660253882408142,
+          0.0,
+          -0.5,
+          -1.5
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.8660253882408142,
+          2.598076105117798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1635977162855883,
+      "final_crop_foreground_ratio": 0.1513671875
+    },
+    {
+      "ring": "horizontal",
+      "index": 4,
+      "source_name": "horizontal_05.JPG",
+      "theta_deg": -40.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_004.png",
+      "mask": "masks/horizontal_004.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.7660444378852844,
+          0.0,
+          -0.6427876353263855,
+          -1.9283628463745117
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.6427876353263855,
+          0.0,
+          0.7660444378852844,
+          2.298133373260498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.16168535315360713,
+      "final_crop_foreground_ratio": 0.14788818359375
+    },
+    {
+      "ring": "horizontal",
+      "index": 5,
+      "source_name": "horizontal_06.JPG",
+      "theta_deg": -50.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_005.png",
+      "mask": "masks/horizontal_005.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.6427876353263855,
+          0.0,
+          -0.7660444378852844,
+          -2.298133373260498
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.7660444378852844,
+          0.0,
+          0.6427876353263855,
+          1.9283628463745117
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15867635634500715,
+      "final_crop_foreground_ratio": 0.14263916015625
+    },
+    {
+      "ring": "horizontal",
+      "index": 6,
+      "source_name": "horizontal_07.JPG",
+      "theta_deg": -60.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_006.png",
+      "mask": "masks/horizontal_006.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.5,
+          0.0,
+          -0.8660253882408142,
+          -2.598076105117798
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.8660253882408142,
+          0.0,
+          0.5,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15642994273326616,
+      "final_crop_foreground_ratio": 0.139007568359375
+    },
+    {
+      "ring": "horizontal",
+      "index": 7,
+      "source_name": "horizontal_08.JPG",
+      "theta_deg": -70.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_007.png",
+      "mask": "masks/horizontal_007.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.3420201539993286,
+          0.0,
+          -0.9396925568580627,
+          -2.819077968597412
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.9396926164627075,
+          0.0,
+          0.3420201241970062,
+          1.0260604619979858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1541999322877299,
+      "final_crop_foreground_ratio": 0.1353607177734375
+    },
+    {
+      "ring": "horizontal",
+      "index": 8,
+      "source_name": "horizontal_09.JPG",
+      "theta_deg": -80.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_008.png",
+      "mask": "masks/horizontal_008.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.1736481934785843,
+          0.0,
+          -0.9848077297210693,
+          -2.954423189163208
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.9848077893257141,
+          0.0,
+          0.1736481785774231,
+          0.5209445357322693
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1521284584435626,
+      "final_crop_foreground_ratio": 0.1320343017578125
+    },
+    {
+      "ring": "horizontal",
+      "index": 9,
+      "source_name": "horizontal_10.JPG",
+      "theta_deg": -90.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_009.png",
+      "mask": "masks/horizontal_009.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          6.123233601181349e-17,
+          0.0,
+          -1.0,
+          -3.0
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233601181349e-17,
+          1.8369701465288538e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1508917417275552,
+      "final_crop_foreground_ratio": 0.13037109375
+    },
+    {
+      "ring": "horizontal",
+      "index": 10,
+      "source_name": "horizontal_11.JPG",
+      "theta_deg": -100.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_010.png",
+      "mask": "masks/horizontal_010.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.1736481934785843,
+          0.0,
+          -0.9848077297210693,
+          -2.954423189163208
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.9848077893257141,
+          -0.0,
+          -0.1736481785774231,
+          -0.5209445357322693
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15184123900331736,
+      "final_crop_foreground_ratio": 0.131256103515625
+    },
+    {
+      "ring": "horizontal",
+      "index": 11,
+      "source_name": "horizontal_12.JPG",
+      "theta_deg": -110.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_011.png",
+      "mask": "masks/horizontal_011.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.3420201539993286,
+          0.0,
+          -0.9396925568580627,
+          -2.819077968597412
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.9396926164627075,
+          -0.0,
+          -0.3420201241970062,
+          -1.0260604619979858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1529263084477618,
+      "final_crop_foreground_ratio": 0.1338348388671875
+    },
+    {
+      "ring": "horizontal",
+      "index": 12,
+      "source_name": "horizontal_13.JPG",
+      "theta_deg": -120.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_012.png",
+      "mask": "masks/horizontal_012.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.5,
+          0.0,
+          -0.8660253882408142,
+          -2.598076105117798
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.8660253882408142,
+          -0.0,
+          -0.5,
+          -1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15578037735155792,
+      "final_crop_foreground_ratio": 0.13739013671875
+    },
+    {
+      "ring": "horizontal",
+      "index": 13,
+      "source_name": "horizontal_14.JPG",
+      "theta_deg": -130.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_013.png",
+      "mask": "masks/horizontal_013.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.6427876353263855,
+          0.0,
+          -0.7660444378852844,
+          -2.298133373260498
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.7660444378852844,
+          -0.0,
+          -0.6427876353263855,
+          -1.9283628463745117
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15864625653502143,
+      "final_crop_foreground_ratio": 0.14117431640625
+    },
+    {
+      "ring": "horizontal",
+      "index": 14,
+      "source_name": "horizontal_15.JPG",
+      "theta_deg": -140.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_014.png",
+      "mask": "masks/horizontal_014.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.7660444378852844,
+          0.0,
+          -0.6427876353263855,
+          -1.9283628463745117
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.6427876353263855,
+          -0.0,
+          -0.7660444378852844,
+          -2.298133373260498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15890698486184598,
+      "final_crop_foreground_ratio": 0.1437530517578125
+    },
+    {
+      "ring": "horizontal",
+      "index": 15,
+      "source_name": "horizontal_16.JPG",
+      "theta_deg": -150.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_015.png",
+      "mask": "masks/horizontal_015.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.8660253882408142,
+          0.0,
+          -0.5,
+          -1.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.5,
+          -0.0,
+          -0.8660253882408142,
+          -2.598076105117798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15983138529331486,
+      "final_crop_foreground_ratio": 0.1447906494140625
+    },
+    {
+      "ring": "horizontal",
+      "index": 16,
+      "source_name": "horizontal_17.JPG",
+      "theta_deg": -160.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_016.png",
+      "mask": "masks/horizontal_016.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9396926164627075,
+          0.0,
+          -0.3420201241970062,
+          -1.0260604619979858
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.3420201539993286,
+          -0.0,
+          -0.9396925568580627,
+          -2.819077968597412
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15880102040816327,
+      "final_crop_foreground_ratio": 0.1443939208984375
+    },
+    {
+      "ring": "horizontal",
+      "index": 17,
+      "source_name": "horizontal_18.JPG",
+      "theta_deg": -170.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_017.png",
+      "mask": "masks/horizontal_017.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9848077893257141,
+          0.0,
+          -0.1736481785774231,
+          -0.5209445357322693
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.1736481934785843,
+          -0.0,
+          -0.9848077297210693,
+          -2.954423189163208
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15939596324640967,
+      "final_crop_foreground_ratio": 0.1461944580078125
+    },
+    {
+      "ring": "horizontal",
+      "index": 18,
+      "source_name": "horizontal_19.JPG",
+      "theta_deg": -180.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_018.png",
+      "mask": "masks/horizontal_018.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -1.0,
+          0.0,
+          -1.2246467202362698e-16,
+          -3.6739402930577075e-16
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          1.2246467202362698e-16,
+          -0.0,
+          -1.0,
+          -3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.16235837506298817,
+      "final_crop_foreground_ratio": 0.1510162353515625
+    },
+    {
+      "ring": "horizontal",
+      "index": 19,
+      "source_name": "horizontal_20.JPG",
+      "theta_deg": -190.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_019.png",
+      "mask": "masks/horizontal_019.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9848077893257141,
+          0.0,
+          0.1736481785774231,
+          0.5209445357322693
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.1736481934785843,
+          0.0,
+          -0.9848077297210693,
+          -2.954423189163208
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.163113576835055,
+      "final_crop_foreground_ratio": 0.1522979736328125
+    },
+    {
+      "ring": "horizontal",
+      "index": 20,
+      "source_name": "horizontal_21.JPG",
+      "theta_deg": -200.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_020.png",
+      "mask": "masks/horizontal_020.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9396926164627075,
+          0.0,
+          0.3420201241970062,
+          1.0260604619979858
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.3420201539993286,
+          0.0,
+          -0.9396925568580627,
+          -2.819077968597412
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1593801341910221,
+      "final_crop_foreground_ratio": 0.1458740234375
+    },
+    {
+      "ring": "horizontal",
+      "index": 21,
+      "source_name": "horizontal_22.JPG",
+      "theta_deg": -210.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_021.png",
+      "mask": "masks/horizontal_021.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.8660253882408142,
+          0.0,
+          0.5,
+          1.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.5,
+          0.0,
+          -0.8660253882408142,
+          -2.598076105117798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15834919519505333,
+      "final_crop_foreground_ratio": 0.1439056396484375
+    },
+    {
+      "ring": "horizontal",
+      "index": 22,
+      "source_name": "horizontal_23.JPG",
+      "theta_deg": -220.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_022.png",
+      "mask": "masks/horizontal_022.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.7660444378852844,
+          0.0,
+          0.6427876353263855,
+          1.9283628463745117
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.6427876353263855,
+          0.0,
+          -0.7660444378852844,
+          -2.298133373260498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15819098665700848,
+      "final_crop_foreground_ratio": 0.1430206298828125
+    },
+    {
+      "ring": "horizontal",
+      "index": 23,
+      "source_name": "horizontal_24.JPG",
+      "theta_deg": -230.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_023.png",
+      "mask": "masks/horizontal_023.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.6427876353263855,
+          0.0,
+          0.7660444378852844,
+          2.298133373260498
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.7660444378852844,
+          0.0,
+          -0.6427876353263855,
+          -1.9283628463745117
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15671256928697405,
+      "final_crop_foreground_ratio": 0.1405029296875
+    },
+    {
+      "ring": "horizontal",
+      "index": 24,
+      "source_name": "horizontal_25.JPG",
+      "theta_deg": -240.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_024.png",
+      "mask": "masks/horizontal_024.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.5,
+          0.0,
+          0.8660253882408142,
+          2.598076105117798
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.8660253882408142,
+          0.0,
+          -0.5,
+          -1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15503173684597296,
+      "final_crop_foreground_ratio": 0.13751220703125
+    },
+    {
+      "ring": "horizontal",
+      "index": 25,
+      "source_name": "horizontal_26.JPG",
+      "theta_deg": -250.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_025.png",
+      "mask": "masks/horizontal_025.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.3420201539993286,
+          0.0,
+          0.9396925568580627,
+          2.819077968597412
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.9396926164627075,
+          0.0,
+          -0.3420201241970062,
+          -1.0260604619979858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15351542816200553,
+      "final_crop_foreground_ratio": 0.135528564453125
+    },
+    {
+      "ring": "horizontal",
+      "index": 26,
+      "source_name": "horizontal_27.JPG",
+      "theta_deg": -260.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_026.png",
+      "mask": "masks/horizontal_026.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.1736481934785843,
+          0.0,
+          0.9848077297210693,
+          2.954423189163208
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.9848077893257141,
+          0.0,
+          -0.1736481785774231,
+          -0.5209445357322693
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15214814224300832,
+      "final_crop_foreground_ratio": 0.132598876953125
+    },
+    {
+      "ring": "horizontal",
+      "index": 27,
+      "source_name": "horizontal_28.JPG",
+      "theta_deg": -270.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_027.png",
+      "mask": "masks/horizontal_027.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -1.8369702788777518e-16,
+          0.0,
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -1.8369702788777518e-16,
+          -5.510910704284357e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.4,
+      "full_image_foreground_ratio": 0.15014301920613923,
+      "final_crop_foreground_ratio": 0.1290740966796875
+    },
+    {
+      "ring": "horizontal",
+      "index": 28,
+      "source_name": "horizontal_29.JPG",
+      "theta_deg": -280.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_028.png",
+      "mask": "masks/horizontal_028.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.1736481934785843,
+          0.0,
+          0.9848077297210693,
+          2.954423189163208
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.9848077893257141,
+          0.0,
+          0.1736481785774231,
+          0.5209445357322693
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15211722227471236,
+      "final_crop_foreground_ratio": 0.1326904296875
+    },
+    {
+      "ring": "horizontal",
+      "index": 29,
+      "source_name": "horizontal_30.JPG",
+      "theta_deg": -290.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_029.png",
+      "mask": "masks/horizontal_029.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.3420201539993286,
+          0.0,
+          0.9396925568580627,
+          2.819077968597412
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.9396926164627075,
+          0.0,
+          0.3420201241970062,
+          1.0260604619979858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15312831343957337,
+      "final_crop_foreground_ratio": 0.133514404296875
+    },
+    {
+      "ring": "horizontal",
+      "index": 30,
+      "source_name": "horizontal_31.JPG",
+      "theta_deg": -300.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_030.png",
+      "mask": "masks/horizontal_030.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.5,
+          0.0,
+          0.8660253882408142,
+          2.598076105117798
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.8660253882408142,
+          0.0,
+          0.5,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1535579943783069,
+      "final_crop_foreground_ratio": 0.1358795166015625
+    },
+    {
+      "ring": "horizontal",
+      "index": 31,
+      "source_name": "horizontal_32.JPG",
+      "theta_deg": -310.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_031.png",
+      "mask": "masks/horizontal_031.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.6427876353263855,
+          0.0,
+          0.7660444378852844,
+          2.298133373260498
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.7660444378852844,
+          0.0,
+          0.6427876353263855,
+          1.9283628463745117
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15595006810594608,
+      "final_crop_foreground_ratio": 0.1400299072265625
+    },
+    {
+      "ring": "horizontal",
+      "index": 32,
+      "source_name": "horizontal_33.JPG",
+      "theta_deg": -320.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_032.png",
+      "mask": "masks/horizontal_032.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.7660444378852844,
+          0.0,
+          0.6427876353263855,
+          1.9283628463745117
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.6427876353263855,
+          0.0,
+          0.7660444378852844,
+          2.298133373260498
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15931066678214495,
+      "final_crop_foreground_ratio": 0.1455230712890625
+    },
+    {
+      "ring": "horizontal",
+      "index": 33,
+      "source_name": "horizontal_34.JPG",
+      "theta_deg": -330.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_033.png",
+      "mask": "masks/horizontal_033.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.8660253882408142,
+          0.0,
+          0.5,
+          1.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.5,
+          0.0,
+          0.8660253882408142,
+          2.598076105117798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1623495173532376,
+      "final_crop_foreground_ratio": 0.150421142578125
+    },
+    {
+      "ring": "horizontal",
+      "index": 34,
+      "source_name": "horizontal_35.JPG",
+      "theta_deg": -340.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_034.png",
+      "mask": "masks/horizontal_034.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9396926164627075,
+          0.0,
+          0.3420201241970062,
+          1.0260604619979858
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.3420201539993286,
+          0.0,
+          0.9396925568580627,
+          2.819077968597412
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.16533046474762744,
+      "final_crop_foreground_ratio": 0.1559295654296875
+    },
+    {
+      "ring": "horizontal",
+      "index": 35,
+      "source_name": "horizontal_36.JPG",
+      "theta_deg": -350.0,
+      "elevation_deg": 0.0,
+      "rgb": "rgb/horizontal_035.png",
+      "mask": "masks/horizontal_035.png",
+      "fx": 199.6431246885149,
+      "fy": 199.6431246885149,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9848077893257141,
+          0.0,
+          0.1736481785774231,
+          0.5209445357322693
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.1736481934785843,
+          0.0,
+          0.9848077297210693,
+          2.954423189163208
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.16742990599017385,
+      "final_crop_foreground_ratio": 0.1584625244140625
+    },
+    {
+      "ring": "upper",
+      "index": 0,
+      "source_name": "upper_01.JPG",
+      "theta_deg": -0.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_000.png",
+      "mask": "masks/upper_000.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.0,
+          -0.4226182997226715,
+          0.9063077569007874,
+          2.718923330307007
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.1298624725739061,
+      "final_crop_foreground_ratio": 0.143707275390625
+    },
+    {
+      "ring": "upper",
+      "index": 1,
+      "source_name": "upper_02.JPG",
+      "theta_deg": -20.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_001.png",
+      "mask": "masks/upper_001.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9396926164627075,
+          0.14454399049282074,
+          -0.3099755346775055,
+          -0.9299265742301941
+        ],
+        [
+          -0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.342020183801651,
+          -0.3971312940120697,
+          0.8516507148742676,
+          2.5549521446228027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.1282068189930293,
+      "final_crop_foreground_ratio": 0.1397247314453125
+    },
+    {
+      "ring": "upper",
+      "index": 2,
+      "source_name": "upper_03.JPG",
+      "theta_deg": -40.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_002.png",
+      "mask": "masks/upper_002.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.7660444378852844,
+          0.27165380120277405,
+          -0.5825634002685547,
+          -1.747690200805664
+        ],
+        [
+          -0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.6427876353263855,
+          -0.32374438643455505,
+          0.6942720413208008,
+          2.0828161239624023
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.1253651344797178,
+      "final_crop_foreground_ratio": 0.1363372802734375
+    },
+    {
+      "ring": "upper",
+      "index": 3,
+      "source_name": "upper_04.JPG",
+      "theta_deg": -60.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_003.png",
+      "mask": "masks/upper_003.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.5,
+          0.36599817872047424,
+          -0.784885585308075,
+          -2.35465669631958
+        ],
+        [
+          -0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.866025447845459,
+          -0.21130913496017456,
+          0.4531538784503937,
+          1.3594616651535034
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12340872884647686,
+      "final_crop_foreground_ratio": 0.132659912109375
+    },
+    {
+      "ring": "upper",
+      "index": 4,
+      "source_name": "upper_05.JPG",
+      "theta_deg": -80.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_004.png",
+      "mask": "masks/upper_004.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.1736481636762619,
+          0.4161977469921112,
+          -0.8925389647483826,
+          -2.677616834640503
+        ],
+        [
+          -0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.9848077297210693,
+          -0.07338688522577286,
+          0.157378688454628,
+          0.47213608026504517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12218644691672965,
+      "final_crop_foreground_ratio": 0.128570556640625
+    },
+    {
+      "ring": "upper",
+      "index": 5,
+      "source_name": "upper_06.JPG",
+      "theta_deg": -100.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_005.png",
+      "mask": "masks/upper_005.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.1736481636762619,
+          0.4161977469921112,
+          -0.8925389647483826,
+          -2.677616834640503
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.9848077297210693,
+          0.07338688522577286,
+          -0.157378688454628,
+          -0.47213608026504517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12190078577727387,
+      "final_crop_foreground_ratio": 0.12677001953125
+    },
+    {
+      "ring": "upper",
+      "index": 6,
+      "source_name": "upper_07.JPG",
+      "theta_deg": -120.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_006.png",
+      "mask": "masks/upper_006.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.5,
+          0.36599817872047424,
+          -0.784885585308075,
+          -2.35465669631958
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.866025447845459,
+          0.21130913496017456,
+          -0.4531538784503937,
+          -1.3594616651535034
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12650285808767953,
+      "final_crop_foreground_ratio": 0.1322174072265625
+    },
+    {
+      "ring": "upper",
+      "index": 7,
+      "source_name": "upper_08.JPG",
+      "theta_deg": -140.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_007.png",
+      "mask": "masks/upper_007.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.7660444378852844,
+          0.27165380120277405,
+          -0.5825634002685547,
+          -1.747690200805664
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.6427876353263855,
+          0.32374438643455505,
+          -0.6942720413208008,
+          -2.0828161239624023
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.13037687586608718,
+      "final_crop_foreground_ratio": 0.1417694091796875
+    },
+    {
+      "ring": "upper",
+      "index": 8,
+      "source_name": "upper_09.JPG",
+      "theta_deg": -160.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_008.png",
+      "mask": "masks/upper_008.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9396926164627075,
+          0.14454399049282074,
+          -0.3099755346775055,
+          -0.9299265742301941
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          0.342020183801651,
+          0.3971312940120697,
+          -0.8516507148742676,
+          -2.5549521446228027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.13261426773641555,
+      "final_crop_foreground_ratio": 0.148956298828125
+    },
+    {
+      "ring": "upper",
+      "index": 9,
+      "source_name": "upper_10.JPG",
+      "theta_deg": -180.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_009.png",
+      "mask": "masks/upper_009.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -1.0,
+          5.1755817424716086e-17,
+          -1.1099069092822633e-16,
+          -3.329720661672341e-16
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          1.2246468525851679e-16,
+          0.4226182997226715,
+          -0.9063077569007874,
+          -2.718923330307007
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.1339139726106492,
+      "final_crop_foreground_ratio": 0.152069091796875
+    },
+    {
+      "ring": "upper",
+      "index": 10,
+      "source_name": "upper_11.JPG",
+      "theta_deg": -200.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_010.png",
+      "mask": "masks/upper_010.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9396926164627075,
+          -0.14454399049282074,
+          0.3099755346775055,
+          0.9299265742301941
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.342020183801651,
+          0.3971312940120697,
+          -0.8516507148742676,
+          -2.5549521446228027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.13231720639644748,
+      "final_crop_foreground_ratio": 0.1473388671875
+    },
+    {
+      "ring": "upper",
+      "index": 11,
+      "source_name": "upper_12.JPG",
+      "theta_deg": -220.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_011.png",
+      "mask": "masks/upper_011.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.7660444378852844,
+          -0.27165380120277405,
+          0.5825634002685547,
+          1.747690200805664
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.6427876353263855,
+          0.32374438643455505,
+          -0.6942720413208008,
+          -2.0828161239624023
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.13025163769211387,
+      "final_crop_foreground_ratio": 0.1416015625
+    },
+    {
+      "ring": "upper",
+      "index": 12,
+      "source_name": "upper_13.JPG",
+      "theta_deg": -240.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_012.png",
+      "mask": "masks/upper_012.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.5,
+          -0.36599817872047424,
+          0.784885585308075,
+          2.35465669631958
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.866025447845459,
+          0.21130913496017456,
+          -0.4531538784503937,
+          -1.3594616651535034
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12625147956559166,
+      "final_crop_foreground_ratio": 0.1328125
+    },
+    {
+      "ring": "upper",
+      "index": 13,
+      "source_name": "upper_14.JPG",
+      "theta_deg": -260.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_013.png",
+      "mask": "masks/upper_013.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.1736481636762619,
+          -0.4161977469921112,
+          0.8925389647483826,
+          2.677616834640503
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.9848077297210693,
+          0.07338688522577286,
+          -0.157378688454628,
+          -0.47213608026504517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12320992247207525,
+      "final_crop_foreground_ratio": 0.127044677734375
+    },
+    {
+      "ring": "upper",
+      "index": 14,
+      "source_name": "upper_15.JPG",
+      "theta_deg": -280.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_014.png",
+      "mask": "masks/upper_014.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.1736481636762619,
+          -0.4161977469921112,
+          0.8925389647483826,
+          2.677616834640503
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.9848077297210693,
+          -0.07338688522577286,
+          0.157378688454628,
+          0.47213608026504517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12370308366402116,
+      "final_crop_foreground_ratio": 0.1287384033203125
+    },
+    {
+      "ring": "upper",
+      "index": 15,
+      "source_name": "upper_16.JPG",
+      "theta_deg": -300.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_015.png",
+      "mask": "masks/upper_015.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.5,
+          -0.36599817872047424,
+          0.784885585308075,
+          2.35465669631958
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.866025447845459,
+          -0.21130913496017456,
+          0.4531538784503937,
+          1.3594616651535034
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12289202911102713,
+      "final_crop_foreground_ratio": 0.133880615234375
+    },
+    {
+      "ring": "upper",
+      "index": 16,
+      "source_name": "upper_17.JPG",
+      "theta_deg": -320.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_016.png",
+      "mask": "masks/upper_016.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.7660444378852844,
+          -0.27165380120277405,
+          0.5825634002685547,
+          1.747690200805664
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.6427876353263855,
+          -0.32374438643455505,
+          0.6942720413208008,
+          2.0828161239624023
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12598164748152346,
+      "final_crop_foreground_ratio": 0.1377410888671875
+    },
+    {
+      "ring": "upper",
+      "index": 17,
+      "source_name": "upper_18.JPG",
+      "theta_deg": -340.0,
+      "elevation_deg": 25.0,
+      "rgb": "rgb/upper_017.png",
+      "mask": "masks/upper_017.png",
+      "fx": 222.9585331537215,
+      "fy": 222.9585331537215,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9396926164627075,
+          -0.14454399049282074,
+          0.3099755346775055,
+          0.9299265742301941
+        ],
+        [
+          0.0,
+          0.9063078165054321,
+          0.4226182699203491,
+          1.2678548097610474
+        ],
+        [
+          -0.342020183801651,
+          -0.3971312940120697,
+          0.8516507148742676,
+          2.5549521446228027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.12855842086062821,
+      "final_crop_foreground_ratio": 0.1421051025390625
+    },
+    {
+      "ring": "upper45",
+      "index": 0,
+      "source_name": "upper45_01.JPG",
+      "theta_deg": -0.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_000.png",
+      "mask": "masks/upper45_000.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.7071068286895752,
+          0.7071068286895752,
+          2.1213202476501465
+        ],
+        [
+          0.0,
+          -0.7071068286895752,
+          0.7071068286895752,
+          2.1213202476501465
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.13884673275174267,
+      "final_crop_foreground_ratio": 0.191314697265625
+    },
+    {
+      "ring": "upper45",
+      "index": 1,
+      "source_name": "upper45_02.JPG",
+      "theta_deg": -20.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_001.png",
+      "mask": "masks/upper45_001.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9396926760673523,
+          0.2418447732925415,
+          -0.2418447583913803,
+          -0.7255342602729797
+        ],
+        [
+          -0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.3420201539993286,
+          -0.6644630432128906,
+          0.6644630432128906,
+          1.9933891296386719
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14081658898127153,
+      "final_crop_foreground_ratio": 0.1996002197265625
+    },
+    {
+      "ring": "upper45",
+      "index": 2,
+      "source_name": "upper45_03.JPG",
+      "theta_deg": -40.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_002.png",
+      "mask": "masks/upper45_002.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.7660444378852844,
+          0.45451948046684265,
+          -0.45451948046684265,
+          -1.3635584115982056
+        ],
+        [
+          -0.0,
+          0.7071067690849304,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.6427876353263855,
+          -0.5416752099990845,
+          0.5416752099990845,
+          1.6250256299972534
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14180151709603595,
+      "final_crop_foreground_ratio": 0.2014923095703125
+    },
+    {
+      "ring": "upper45",
+      "index": 3,
+      "source_name": "upper45_04.JPG",
+      "theta_deg": -60.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_003.png",
+      "mask": "masks/upper45_003.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.5,
+          0.6123724579811096,
+          -0.6123724579811096,
+          -1.837117314338684
+        ],
+        [
+          -0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.866025447845459,
+          -0.3535533845424652,
+          0.3535533845424652,
+          1.0606601238250732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14218707351767867,
+      "final_crop_foreground_ratio": 0.19805908203125
+    },
+    {
+      "ring": "upper45",
+      "index": 4,
+      "source_name": "upper45_05.JPG",
+      "theta_deg": -80.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_004.png",
+      "mask": "masks/upper45_004.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.1736481785774231,
+          0.6963642835617065,
+          -0.6963642239570618,
+          -2.08909273147583
+        ],
+        [
+          -0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.9848077297210693,
+          -0.12278781086206436,
+          0.12278780341148376,
+          0.3683634102344513
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14249938980221719,
+      "final_crop_foreground_ratio": 0.19549560546875
+    },
+    {
+      "ring": "upper45",
+      "index": 5,
+      "source_name": "upper45_06.JPG",
+      "theta_deg": -100.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_005.png",
+      "mask": "masks/upper45_005.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.1736481785774231,
+          0.6963642835617065,
+          -0.6963642239570618,
+          -2.08909273147583
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.9848077297210693,
+          0.12278781086206436,
+          -0.12278780341148376,
+          -0.3683634102344513
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14565708131246324,
+      "final_crop_foreground_ratio": 0.20050048828125
+    },
+    {
+      "ring": "upper45",
+      "index": 6,
+      "source_name": "upper45_07.JPG",
+      "theta_deg": -120.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_006.png",
+      "mask": "masks/upper45_006.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.5,
+          0.6123724579811096,
+          -0.6123724579811096,
+          -1.837117314338684
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.866025447845459,
+          0.3535533845424652,
+          -0.3535533845424652,
+          -1.0606601238250732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14981011694801377,
+      "final_crop_foreground_ratio": 0.2090301513671875
+    },
+    {
+      "ring": "upper45",
+      "index": 7,
+      "source_name": "upper45_08.JPG",
+      "theta_deg": -140.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_007.png",
+      "mask": "masks/upper45_007.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.7660444378852844,
+          0.45451948046684265,
+          -0.45451948046684265,
+          -1.3635584115982056
+        ],
+        [
+          0.0,
+          0.7071067690849304,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.6427876353263855,
+          0.5416752099990845,
+          -0.5416752099990845,
+          -1.6250256299972534
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.1518250818846057,
+      "final_crop_foreground_ratio": 0.217559814453125
+    },
+    {
+      "ring": "upper45",
+      "index": 8,
+      "source_name": "upper45_09.JPG",
+      "theta_deg": -160.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_008.png",
+      "mask": "masks/upper45_008.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9396926760673523,
+          0.2418447732925415,
+          -0.2418447583913803,
+          -0.7255342602729797
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          0.3420201539993286,
+          0.6644630432128906,
+          -0.6644630432128906,
+          -1.9933891296386719
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15508307875619384,
+      "final_crop_foreground_ratio": 0.222503662109375
+    },
+    {
+      "ring": "upper45",
+      "index": 9,
+      "source_name": "upper45_10.JPG",
+      "theta_deg": -180.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_009.png",
+      "mask": "masks/upper45_009.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -1.0,
+          8.659560603426554e-17,
+          -8.659560603426554e-17,
+          -2.5978680486790683e-16
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071068286895752,
+          2.1213202476501465
+        ],
+        [
+          1.2246467202362698e-16,
+          0.7071068286895752,
+          -0.7071068286895752,
+          -2.1213202476501465
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.7,
+      "full_image_foreground_ratio": 0.15369635508524399,
+      "final_crop_foreground_ratio": 0.2198944091796875
+    },
+    {
+      "ring": "upper45",
+      "index": 10,
+      "source_name": "upper45_11.JPG",
+      "theta_deg": -200.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_010.png",
+      "mask": "masks/upper45_010.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.9396926760673523,
+          -0.2418447732925415,
+          0.2418447583913803,
+          0.7255342602729797
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.3420201539993286,
+          0.6644630432128906,
+          -0.6644630432128906,
+          -1.9933891296386719
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.5,
+      "full_image_foreground_ratio": 0.14986580569727892,
+      "final_crop_foreground_ratio": 0.21392822265625
+    },
+    {
+      "ring": "upper45",
+      "index": 11,
+      "source_name": "upper45_12.JPG",
+      "theta_deg": -220.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_011.png",
+      "mask": "masks/upper45_011.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.7660444378852844,
+          -0.45451948046684265,
+          0.45451948046684265,
+          1.3635584115982056
+        ],
+        [
+          0.0,
+          0.7071067690849304,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.6427876353263855,
+          0.5416752099990845,
+          -0.5416752099990845,
+          -1.6250256299972534
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14677536716847234,
+      "final_crop_foreground_ratio": 0.2084503173828125
+    },
+    {
+      "ring": "upper45",
+      "index": 12,
+      "source_name": "upper45_13.JPG",
+      "theta_deg": -240.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_012.png",
+      "mask": "masks/upper45_012.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.5,
+          -0.6123724579811096,
+          0.6123724579811096,
+          1.837117314338684
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.866025447845459,
+          0.3535533845424652,
+          -0.3535533845424652,
+          -1.0606601238250732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.4,
+      "full_image_foreground_ratio": 0.14298311917359535,
+      "final_crop_foreground_ratio": 0.1999359130859375
+    },
+    {
+      "ring": "upper45",
+      "index": 13,
+      "source_name": "upper45_14.JPG",
+      "theta_deg": -260.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_013.png",
+      "mask": "masks/upper45_013.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          -0.1736481785774231,
+          -0.6963642835617065,
+          0.6963642239570618,
+          2.08909273147583
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.9848077297210693,
+          0.12278781086206436,
+          -0.12278780341148376,
+          -0.3683634102344513
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14277602920026036,
+      "final_crop_foreground_ratio": 0.1965789794921875
+    },
+    {
+      "ring": "upper45",
+      "index": 14,
+      "source_name": "upper45_15.JPG",
+      "theta_deg": -280.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_014.png",
+      "mask": "masks/upper45_014.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.1736481785774231,
+          -0.6963642835617065,
+          0.6963642239570618,
+          2.08909273147583
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.9848077297210693,
+          -0.12278781086206436,
+          0.12278780341148376,
+          0.3683634102344513
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14310597888846896,
+      "final_crop_foreground_ratio": 0.1961822509765625
+    },
+    {
+      "ring": "upper45",
+      "index": 15,
+      "source_name": "upper45_16.JPG",
+      "theta_deg": -300.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_015.png",
+      "mask": "masks/upper45_015.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.5,
+          -0.6123724579811096,
+          0.6123724579811096,
+          1.837117314338684
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.866025447845459,
+          -0.3535533845424652,
+          0.3535533845424652,
+          1.0606601238250732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.1410491038622239,
+      "final_crop_foreground_ratio": 0.1990203857421875
+    },
+    {
+      "ring": "upper45",
+      "index": 16,
+      "source_name": "upper45_17.JPG",
+      "theta_deg": -320.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_016.png",
+      "mask": "masks/upper45_016.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.7660444378852844,
+          -0.45451948046684265,
+          0.45451948046684265,
+          1.3635584115982056
+        ],
+        [
+          0.0,
+          0.7071067690849304,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.6427876353263855,
+          -0.5416752099990845,
+          0.5416752099990845,
+          1.6250256299972534
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14160869787729907,
+      "final_crop_foreground_ratio": 0.20166015625
+    },
+    {
+      "ring": "upper45",
+      "index": 17,
+      "source_name": "upper45_18.JPG",
+      "theta_deg": -340.0,
+      "elevation_deg": 45.0,
+      "rgb": "rgb/upper45_017.png",
+      "mask": "masks/upper45_017.png",
+      "fx": 221.6423670784339,
+      "fy": 221.6423670784339,
+      "cx": 128.0,
+      "cy": 128.0,
+      "transform_matrix": [
+        [
+          0.9396926760673523,
+          -0.2418447732925415,
+          0.2418447583913803,
+          0.7255342602729797
+        ],
+        [
+          0.0,
+          0.7071068286895752,
+          0.7071067690849304,
+          2.1213202476501465
+        ],
+        [
+          -0.3420201539993286,
+          -0.6644630432128906,
+          0.6644630432128906,
+          1.9933891296386719
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mask_threshold": 0.3,
+      "full_image_foreground_ratio": 0.14191363273704544,
+      "final_crop_foreground_ratio": 0.203155517578125
+    }
+  ]
+}

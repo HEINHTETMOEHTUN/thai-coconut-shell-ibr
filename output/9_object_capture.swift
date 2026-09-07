@@ -21,7 +21,7 @@ struct CoconutShellObjectCapture {
         let outputFile = URL(
             fileURLWithPath: currentDirectory
         )
-        .appendingPathComponent("coconut_shell_3d.usdz")
+        .appendingPathComponent("coconut_shell_3d_FULL.usdz")
 
 
         print("======================================")
@@ -148,7 +148,7 @@ struct CoconutShellObjectCapture {
 
                     .modelFile(
                         url: outputFile,
-                        detail: .medium
+                        detail: .full
                     )
 
                 ]
